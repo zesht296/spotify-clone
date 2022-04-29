@@ -1,0 +1,61 @@
+.player-body {
+    display: flex;
+}
+
+.sidebar {
+    height: 110vh;
+    flex: 0.2;
+    background-color: #040404;
+    color: #fff;
+    min-width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar>hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.sidebar-logo {
+    height: 70px;
+    padding: 10px;
+    margin-right: auto;
+}
+
+.sidebar-option {
+    display: flex;
+    align-items: center;
+    color: #808080;
+    height: 40px;
+    cursor: pointer;
+    width: fit-content;
+    transition: 130ms color ease-in;
+}
+
+.sidebar-option:hover{
+    color: #fff;
+}
+
+.sidebar-option > p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.sidebar-option-icon {
+    padding: 0px 10px;
+}
+
+.sidebar-playlist-title {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.no-playlist {
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #808080;
+}

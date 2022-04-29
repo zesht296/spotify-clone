@@ -1,0 +1,134 @@
+.body {
+    flex: 0.8;
+    background: linear-gradient(#5b5773 , #000);
+    height: 100vh;
+    color: #fff;
+    padding: 30px;
+    overflow-y: overlay;
+    margin-bottom: 75px;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header-left {
+    flex: 0.5;
+    min-width: 70px;
+    background-color: #fff;
+    color: #808080;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#search-bar {
+    border: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+#search-bar:focus-visible {
+    outline: none;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right>h4 {
+    margin-left: 10px;
+}
+
+.body-info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.body-info > img {
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px #00000080;
+}
+
+.body-info-text {
+    flex: 1;
+}
+
+.body-info-text > h2 {
+    width: fit-content;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.body-info-text > p {
+    font-size: 14px;
+}
+
+.body-songs {
+    margin: 20px -30px;
+}
+
+.body-icons {
+    display: flex;
+    align-items: center;
+}
+
+.body-icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.body-shuffle {
+    font-size: 80px !important;
+    margin: 20px 0px 20px 50px;
+    cursor: pointer;
+}
+
+.body-shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
+.song-row {
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 100 !important;
+    color: #fff;
+}
+
+.song-row:hover {
+    cursor: pointer;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.song-row-info {
+    margin-left: 20px;
+}
+
+.song-row-info > h1 {
+    font-size: 16px;
+}
+
+.song-row-info > p {
+    font-size: 14px;
+    margin-top: 3px;
+    color: #808080;
+}
+
+.song-row > img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
